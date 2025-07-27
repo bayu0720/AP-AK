@@ -10,5 +10,28 @@
       "src": "/(.*)",
       "dest": "api/index.php"
     }
-  ]
+  ],
+   "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "",
+    "APP_KEY": "base64:x9tAvILhFGe7MkWfnCq+pNyrY9Mfq1x0ZBpPWRReR2E=",
+    "DB_CONNECTION": "mysql",
+    "DB_HOST": "y6zbr8k.h.filess.io",
+    "DB_PORT": "3306",
+    "DB_DATABASE": "dbpaynote_beforesuit",
+    "DB_USERNAME": "dbpaynote_beforesuit",
+    "DB_PASSWORD": "9a4cd3944437cd63222356c62995a235f3ceb57c",
+
+    "APP_CONFIG_CACHE": "/tmp/config.php",
+    "APP_EVENTS_CACHE": "/tmp/events.php",
+    "APP_PACKAGES_CACHE": "/tmp/packages.php",
+    "APP_ROUTES_CACHE": "/tmp/routes.php",
+    "APP_SERVICES_CACHE": "/tmp/services.php",
+    "VIEW_COMPILED_PATH": "/tmp",
+
+    "CACHE_DRIVER": "array",
+    "SESSION_DRIVER": "array",
+    "QUEUE_CONNECTION": "sync"
+  }
 }
